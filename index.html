@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="styles.css" />
+<title>Brown Bear Coffee</title>
+</head>
+<body>
+	<header id="header">
+		<h1 class="brown-bear-coffee">Brown Bear Coffee</h1>
+		<nav id="nav-bar">
+				<ul>
+					<li class="nav-link"><a href="#about-us" id="about-us">About Us</a></li>
+					<li class="nav-link"><a href="#products" id="products">Products</a></li>
+					<li class="nav-link"><a href="#contact-us" id="contact-us">Contact Us</a></li>
+				</ul>
+			</nav>
+		<img 
+			id="header-img" 
+			src="images/brownbear.jpg" 
+			alt="A brown bear"
+			/>
+		</header>
+
+		<main>
+
+	<h2> <a id="about-us">About Us</a></h2>
+	<p> We love coffee and brown bears. Why not combine them?</p>
+
+	<h2> <a id="products">Products</a></h2>
+	<p>We have such wicked flavors as:</p>
+
+	<ul class="coffee-types">
+		<li>Peppermint Mocha Grizzly</li>
+		<li>Sunbear Cappucino</li>
+		<li>Flat White Polar Bear</li>
+		<li>Caramel Panda</li>
+	</ul>
+
+	<h2> <a id="contact-us">Contact Us</a></h2>
+
+	<form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
+		<label for="email">Enter your email:</label>
+		<input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="tera@aol.com">
+		<input type="submit">
+	</form>
+
+	<video width="320" height="240" controls
+		src="movie.mp4" type="video/mp4"
+		src="movie.ogg" type="video/ogg">
+			Your browser does not support the Video tag.
+		</video>
+	</main>
+	</body>
+</html>

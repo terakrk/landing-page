@@ -1,0 +1,83 @@
+body {
+	background-color: black;
+}
+
+
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	background-image: url("images/brownbear.jpg");
+}
+
+
+#header-img {
+	display: flex;
+	width: 80rem;
+	object-fit: cover;
+	align-items: center;
+	justify-content: center;
+}
+
+#nav-bar {
+position: fixed;
+justify-content: flex-end;
+top: 0;
+left:0;
+background-color: black;;
+width: 100%;
+order: 1;
+}
+
+
+.nav-link {
+	list-style: none;
+	display: inline-block;
+	justify-content: space-evenly;
+	padding: .5;
+	color: limegreen;
+	flex-direction: row;
+
+
+
+}
+
+.nav-link a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: bisque;
+}
+
+.brown-bear-coffee {
+	position: absolute;
+	text-align: center;
+	font-family: serif;
+	font-size: 4rem;
+	justify-content: center;
+	top: 55%;
+	left: 30%;
+	color: rgb(240, 230, 140);
+}
+
+main {
+	text-align: center;
+	color: GhostWhite;
+	padding: 0;
+	margin: 0;
+}
+
+.coffee-types {
+	list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.brown-bear-coffee {
+		font-size: 2rem;
+		top: 82%;
+		left: 30%%;
+	}
+}
+
